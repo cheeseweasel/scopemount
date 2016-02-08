@@ -2,7 +2,7 @@
     <div class="magellan-header">FEATURED POSTS</div>
     {{#each featured}}
     <div class="post {{#if sticky}}sticky{{/if}} {{inactiveClass}} {{postClass}}" id="{{_id}}">
-      {{> modules zone="postComponents" moduleClass="post-module"}}
+      {{> modules zone="postComponents" moduleClass="post-module" moduleData=this}}
     </div>
     {{/each}}
 </template>
