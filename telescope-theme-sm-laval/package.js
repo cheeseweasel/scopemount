@@ -28,7 +28,6 @@ Package.onUse(function (api) {
       'lib/client/scss/partials/_colors.scss',
 
       // globals
-      'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_links.scss',
       'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_markdown.scss',

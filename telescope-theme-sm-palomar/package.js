@@ -26,7 +26,6 @@ Package.onUse(function (api) {
       'lib/client/main.html',
 
       // globals
-      'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_links.scss',
       'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_markdown.scss',
