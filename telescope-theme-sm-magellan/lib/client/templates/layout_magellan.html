@@ -7,14 +7,16 @@
       <div class="content-wrapper">
       <div class="left-column">
         {{> messages}}
-        {{> modules "hero"}}
-        {{> yield "adminMenu"}}
-        {{> yield "top"}}
-        {{> yield}}
+        {{> modules zone="hero"}}
+        {{> Template.dynamic template=adminMenu}}
+        {{> modules zone="contentTop"}}
+        {{> Template.dynamic template=main}}
+        {{> modules zone="contentBottom"}}
         {{> footer_code}}
+        {{> modules zone="footer"}}
       </div>
       <div class="right-column">
-        {{> modules "magellanSidebar"}}
+        {{> modules zone="magellanSidebar"}}
       </div>
       </div>
       <div class="overlay hidden"></div>
